@@ -10,16 +10,18 @@ class Form{
 	public $password;
 
 	public function __construct(){
-		$this->name = $_POST["name"];
+	
+	}	$this->name = $_POST["name"];
 		$this->fam  = $_POST["fam"];
 		$this->ot  = $_POST["ot"];
 		$this->file  = $_POST["file"];
 		$this->password  = $_POST["password"];
-	}
 
 }
 
 $form = new Form();
+
+print_r($form);
 print_r($form);
 
 
@@ -59,6 +61,9 @@ class  Aliens {
 
 */
 ?>
+
+
+
 
 
 <!DOCTYPE html>
